@@ -1,6 +1,6 @@
 {
   "name": "console-var",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Store console.log output in a variable",
   "main": "lib/console-var.js",
   "scripts": {
