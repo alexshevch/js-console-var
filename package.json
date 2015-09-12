@@ -1,0 +1,19 @@
+{
+  "name": "console-var",
+  "version": "0.0.0",
+  "description": "Store console.log output in a variable",
+  "main": "lib/console-var.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:shevaroller/console-var.git"
+  },
+  "keywords": [
+    "log",
+    "console"
+  ],
+  "author": "Oleksii Shevchenko <shevaroller@gmail.com> (http://shevaroller.me)",
+  "license": "MIT"
+}
