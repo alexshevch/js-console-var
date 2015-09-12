@@ -6,13 +6,13 @@
     npm install console-var --save
 
 ## Usage
-    var consoleVar = require('console-var');
+    var cvar = require('console-var');
 
     function logHello () {
         console.log("Hello World!");
     }
     
-    var consoleOutput = consoleVar(logHello);
+    var consoleOutput = cvar(logHello);
 
 ## License
 
