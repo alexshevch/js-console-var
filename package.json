@@ -15,5 +15,9 @@
     "console"
   ],
   "author": "Oleksii Shevchenko <shevaroller@gmail.com> (http://shevaroller.me)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "q": "^1.4.1"
+  }
 }

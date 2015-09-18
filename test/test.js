@@ -19,3 +19,14 @@ function manyLogs() {
 
 logged = cvar(manyLogs);
 assert.equal(logged, "hello\nworld\n!\n", "multiple line strings are equal");
+
+function delayedLogs() {
+	console.log("hello");
+	setTimeout(function () {
+		console.log("world");
+		console.log("!");
+	}, 3000);
+};
+
+logged = cvar(delayedLogs);
+assert.equal(logged, "hello\nworld\n!\n", "delayed logs in a function are captured");
